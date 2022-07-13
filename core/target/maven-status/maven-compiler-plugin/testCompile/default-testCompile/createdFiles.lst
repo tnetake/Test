@@ -1,0 +1,7 @@
+com\emeageneralsandbox\core\testcontext\AppAemContext$1.class
+com\emeageneralsandbox\core\models\HelloWorldModelTest.class
+com\emeageneralsandbox\core\servlets\SimpleServletTest.class
+com\emeageneralsandbox\core\listeners\SimpleResourceListenerTest.class
+com\emeageneralsandbox\core\testcontext\AppAemContext.class
+com\emeageneralsandbox\core\filters\LoggingFilterTest.class
+com\emeageneralsandbox\core\schedulers\SimpleScheduledTaskTest.class

@@ -1,0 +1,4 @@
+com\emeageneralsandbox\it\tests\HtmlUnitClient.class
+com\emeageneralsandbox\it\tests\PublishPageValidationIT.class
+com\emeageneralsandbox\it\tests\CreatePageIT.class
+com\emeageneralsandbox\it\tests\GetPageIT.class

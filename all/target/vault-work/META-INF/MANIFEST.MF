@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: EMEA General Sandbox - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.emeageneralsandbox:aem-emeageneralsandbox-projec
+ t.all:0.0.1-SNAPSHOT
+Content-Package-Description: All content package for EMEA General Sandbo
+ x
+Content-Package-Roots: /apps/emeageneralsandbox-packages,/apps/emeagener
+ alsandbox-vendor-packages
+

@@ -1,0 +1,146 @@
+{
+  "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:user-aggregated-author:0.0.1-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.core:0.0.1-SNAPSHOT",
+      "feature-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT",
+      "Bundle-SymbolicName":"aem-emeageneralsandbox-project.core",
+      "Bundle-Version":"0.0.1.SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~emeageneralsandbox":    {
+      ":configurator:content-package-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT|com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:0.0.1-SNAPSHOT",
+      "org.apache.sling.commons.log.names":[
+        "com.emeageneralsandbox"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:feature-origins-org.apache.sling.commons.log.names":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.file":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.level":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.additiv":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ]
+    },
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~emeageneralsandbox":    {
+      ":configurator:content-package-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT|com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:0.0.1-SNAPSHOT",
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/emeageneralsandbox.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:feature-origins-supportedmethods":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworigin":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworiginregexp":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-supportedheaders":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-allowedpaths":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ]
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~emeageneralsandbox":    {
+      ":configurator:content-package-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT|com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:0.0.1-SNAPSHOT",
+      "mobile.resourceTypes":[
+        "emeageneralsandbox/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:feature-origins-mobile.resourceTypes":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-README":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ]
+    }
+  },
+  "assembled-features:ARTIFACTS|TRANSIENT":[
+    "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT",
+    "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:author:0.0.1-SNAPSHOT"
+  ],
+  "content-packages:ARTIFACTS|true":[
+    {
+      "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.content:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+      "feature-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+    },
+    {
+      "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+      "feature-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+    },
+    {
+      "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.apps:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+      "feature-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+    },
+    {
+      "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+      "feature-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+    }
+  ],
+  "repoinit:TEXT|true":[
+    "# origin=com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT|com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:0.0.1-SNAPSHOT source=org.apache.sling.jcr.repoinit.RepositoryInitializer~emeageneralsandbox\r",
+    "create path (sling:OrderedFolder) /content/dam/emeageneralsandbox\r",
+    "create path (nt:unstructured) /content/dam/emeageneralsandbox/jcr:content\r",
+    "set properties on /content/dam/emeageneralsandbox/jcr:content",
+    "  set cq:conf{String} to /conf/emeageneralsandbox",
+    "  set jcr:title{String} to \"EMEA General Sandbox\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.emeageneralsandbox.core.filters",
+        "com.emeageneralsandbox.core.listeners",
+        "com.emeageneralsandbox.core.models",
+        "com.emeageneralsandbox.core.schedulers",
+        "com.emeageneralsandbox.core.servlets"
+      ],
+      "feature-origins":[
+        "com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:0.0.1-SNAPSHOT"
+      ]
+    }
+  ],
+  "artifact-rules:JSON|false":{
+
+  }
+}

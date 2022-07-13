@@ -1,0 +1,12 @@
+{
+  "id":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:slingosgifeature:publish:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/emeageneralsandbox/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.emeageneralsandbox:aem-emeageneralsandbox-project.all:0.0.1-SNAPSHOT|com.emeageneralsandbox:aem-emeageneralsandbox-project.ui.config:0.0.1-SNAPSHOT"
+    }
+  }
+}

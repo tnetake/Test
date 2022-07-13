@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>EMEA General Sandbox - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-06-27T10:39:26.105Z</entry>
+<entry key="groupId">com.emeageneralsandbox</entry>
+<entry key="name">aem-emeageneralsandbox-project.all</entry>
+<entry key="description">All content package for EMEA General Sandbox</entry>
+<entry key="artifactId">aem-emeageneralsandbox-project.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.emeageneralsandbox</entry>
+</properties>

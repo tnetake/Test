@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: EMEA General Sandbox - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.emeageneralsandbox:aem-emeageneralsandbox-projec
+ t.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Description: UI apps package for EMEA General Sandbox
+Content-Package-Roots: /apps/emeageneralsandbox/clientlibs,/apps/emeagen
+ eralsandbox/components,/apps/emeageneralsandbox/i18n
+Import-Package: com.emeageneralsandbox.core.models;version="[1.0.0,2.0.0
+ )",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

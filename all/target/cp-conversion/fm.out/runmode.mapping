@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Mon Jun 27 11:39:27 BST 2022
+author=aem-emeageneralsandbox-project.all-author.json
+publish=aem-emeageneralsandbox-project.all-publish.json
+(default)=aem-emeageneralsandbox-project.all.json
