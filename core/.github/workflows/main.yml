@@ -4,7 +4,7 @@ env:
   USER_NAME: tnetake
   USER_EMAIL: tnetake@adobe.com
   # Directory within the Cloud Manager Git repository
-  PROJECT_DIR: Test
+  PROJECT_DIR: core
   # Cloud Manager's Git repository
   MAIN_REPOSITORY: https://tnetake-adobe-com:srcio5yydouldexddzxfikbvpaxy5dhumqw6zais7cnmlw6kfu6a@git.cloudmanager.adobe.com/aemsupport/AdobeAEMSupport-Tushar
   # The branch in Cloud Manager's Git repository to push to
