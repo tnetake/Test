@@ -7,7 +7,7 @@ env:
   PROJECT_DIR: Test-Git
   # Cloud Manager's Git repository
   MAIN_REPOSITORY: https://tnetake-adobe-com:km7tn6qtxi77czj3qgjsfuoemn5xngdfveai3b77hccw2je7jl5q@git.cloudmanager.adobe.com/aemsupport/Test-Git
-  # The branch in Cloud Manager's Git repository to push to
+  # The branch in Cloud Manager's Git repository to push to branch
   MAIN_BRANCH : master
 
 # Only run on a push to this branch
